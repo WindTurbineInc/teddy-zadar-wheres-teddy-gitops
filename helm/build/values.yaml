@@ -1,0 +1,15 @@
+app:
+  name: teddy-zadar-wheres-teddy-app
+  namespace: teddy-zadar
+  cluster: .apps.wearedevs.rl97.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/WindTurbineInc/teddy-zadar-wheres-teddy
+  org: WindTurbineInc
+  name: teddy-zadar-wheres-teddy
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: teddy-zadar/wheres-teddy-app
+  tag: latest
